@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swathi | Freelance Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <h1 class="brand">R Swathi</h1>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Available for remote freelance work</p>
+        <h2>Freelance Developer Building Fast, Reliable Web Apps</h2>
+        <p>I help startups and small businesses launch responsive websites, backend APIs, and secure integrations.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h3>About</h3>
+      <p>I am a full-stack web developer focused on frontend performance, clean backend APIs, and practical delivery for real client needs.</p>
+    </section>
+
+    <section id="services" class="section container">
+      <h3>Services</h3>
+      <div class="grid cards-3">
+        <article class="card">
+          <h4>Business Websites</h4>
+          <p>Responsive websites with SEO basics and modern UI.</p>
+        </article>
+        <article class="card">
+          <h4>Backend APIs</h4>
+          <p>Node.js APIs with database integration and validation.</p>
+        </article>
+        <article class="card">
+          <h4>Maintenance</h4>
+          <p>Bug fixes, new features, and production support.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h3>Featured Projects</h3>
+      <div class="grid cards-3">
+        <article class="card project-card">
+          <h4>Portfolio + Lead Capture CRM</h4>
+          <p>Static portfolio frontend with Node.js + SQLite backend to store leads.</p>
+          <span class="tag">HTML / CSS / JS / Node / SQLite</span>
+          <p><a href="https://github.com/swathiR0229/clientflow-portfolio-crm" target="_blank" rel="noopener noreferrer">View Repository</a></p>
+        </article>
+        <article class="card project-card">
+          <h4>E-commerce Starter</h4>
+          <p>Catalog, cart, and checkout-ready architecture for small stores.</p>
+          <span class="tag">React / Node</span>
+          <p><a href="https://github.com/swathiR0229/cartcraft-mini-store" target="_blank" rel="noopener noreferrer">View Repository</a></p>
+        </article>
+        <article class="card project-card">
+          <h4>Analytics Dashboard</h4>
+          <p>Role-based dashboard with charts, filters, and export workflows.</p>
+          <span class="tag">React / REST API</span>
+          <p><a href="https://github.com/swathiR0229/pulseboard-analytics" target="_blank" rel="noopener noreferrer">View Repository</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h3>Contact</h3>
+      <p>Tell me about your project. I usually reply within 24 hours.</p>
+
+      <form id="contactForm" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name" required maxlength="80">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="your@email.com" required>
+
+        <label for="message">Project details</label>
+        <textarea id="message" placeholder="Scope, timeline, budget (optional)" required maxlength="2000"></textarea>
+
+        <button type="submit">Send Inquiry</button>
+        <p id="formStatus" class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2026 R Swathi. Freelance Full-Stack Developer.</p>
+      <div>
+        <a href="https://github.com/swathiR0229" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="/admin.html">Admin Leads</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
