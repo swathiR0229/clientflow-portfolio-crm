@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio + Contact CRM
 
 A portfolio website with a working lead-capture backend.
@@ -72,3 +73,6 @@ If you run from WSL/Linux, install dependencies in WSL. Do not mix environments 
 - Homepage hero + services section
 - Contact form success message
 - Admin leads table with sample records
+=======
+# clientflow-portfolio-crm
+>>>>>>> 64f741cbd04147f0789010b12b3b526dbcd58c33
